@@ -3,8 +3,7 @@ install.packages("quantmod")
 library(quantmod)
 library(ggplot2)
 
-apple = getSymbols("AAPL", src="yahoo", from="2010-01-01", to="2023-08-31", 
-                auto.assign=FALSE)
+apple = getSymbols("AAPL", src="yahoo", from="2010-01-01", to="2023-08-31", auto.assign=FALSE)
 head(apple)
 tail(apple)
 summary(apple)
